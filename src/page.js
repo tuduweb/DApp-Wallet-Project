@@ -27,6 +27,7 @@ function showWallet() {
   $('#screen-wallet').show();
 }
 
+//KeyStore input
 function setupDropFile(parseJsonFun) {
   var inputFile = document.getElementById('select-wallet-file');
   var targetDrop = document.getElementById('select-wallet-drop');
