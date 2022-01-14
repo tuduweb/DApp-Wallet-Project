@@ -129,8 +129,8 @@ App = {
   },
 
   refreshUI: function() {
-    var inputBalance = $('#wallet-balance');
-    var inputTransactionCount = $('#wallet-transaction-count');
+    var inputBalance = $('#wallet-balance');//wallet
+    var inputTransactionCount = $('#wallet-transaction-count');//Nonce
 
     $("#wallet-submit-refresh").click(function() {
       App.addActivity('> Refreshing details...');
